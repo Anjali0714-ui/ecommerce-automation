@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class ShoppingPage {
 
 	WebDriver driver;
-	
+	// this is shopping page code
 	public ShoppingPage(WebDriver driver)
 	{
 		this.driver=driver;
@@ -85,5 +85,6 @@ public class ShoppingPage {
 	public void clickPurchase()
 	{
 		driver.findElement(purchase).click();
+		System.out.print("Product name");
 	}
 }
